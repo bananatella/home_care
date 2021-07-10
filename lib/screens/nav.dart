@@ -18,7 +18,7 @@ class NavPageState extends State<NavPage> {
   Widget build(BuildContext context) {
     final List<Widget> tabs = [
       HomePage(),
-      Activity_AppBar(),
+      ActivityAppBar(),
       ProfilePage(),
     ];
   

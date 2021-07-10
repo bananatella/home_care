@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:home_care/screens/signup.dart';
+import 'package:home_care/screens/authenticate/signup.dart';
 import 'package:home_care/screens/nav.dart';
 
 

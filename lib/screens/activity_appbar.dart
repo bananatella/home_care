@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 
 
-class Activity_AppBar extends StatefulWidget{
+class ActivityAppBar extends StatefulWidget{
   @override
-  Activity_AppBarState createState() => Activity_AppBarState();
+  ActivityAppBarState createState() => ActivityAppBarState();
 }
 
-class Activity_AppBarState extends State<Activity_AppBar> {
+class ActivityAppBarState extends State<ActivityAppBar> {
   @override
   Widget build(BuildContext context) => DefaultTabController(
 
