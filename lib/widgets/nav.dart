@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:home_care/screens/homepage.dart';
-import 'package:home_care/screens/activity_appbar.dart';
-import 'package:home_care/screens/profile.dart';
+import 'package:home_care/screens/homepage/homepage.dart';
+import 'package:home_care/screens/activity_bottombar/activity_appbar.dart';
+//import 'package:home_care/screens/profile.dart';
 
 
 
@@ -19,7 +19,7 @@ class NavPageState extends State<NavPage> {
     final List<Widget> tabs = [
       HomePage(),
       ActivityAppBar(),
-      ProfilePage(),
+      //ProfilePage(),
     ];
   
     return Scaffold(

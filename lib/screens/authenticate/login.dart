@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:home_care/screens/authenticate/signup.dart';
-import 'package:home_care/screens/nav.dart';
+import 'package:home_care/widgets/nav.dart';
 
 
 class LoginPage extends StatefulWidget{
@@ -29,6 +29,7 @@ class LoginPageState extends State<LoginPage> {
                 child: Form(
                   child: Column(
                     children: <Widget>[
+                      
                       Container(
                         padding: EdgeInsets.only(left: 30.0, right: 30.0,),
                         child: TextFormField(
