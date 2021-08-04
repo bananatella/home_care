@@ -91,7 +91,7 @@ class BookConfirmationPageState extends State<BookConfirmationPage> {
                             mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: <Widget> [
                               Text(
-                                "Service Number",
+                                "Order No.",
                                 style: TextStyle(
                                   fontSize: 15,
                                   fontWeight: FontWeight.bold,

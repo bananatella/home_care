@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:home_care/screens/drawer/myorders/completed.dart';
+import 'package:home_care/screens/drawer/myorders/ongoing.dart';
 
 
 class ActivityAppBar extends StatefulWidget{
@@ -15,6 +17,7 @@ class ActivityAppBarState extends State<ActivityAppBar> {
         appBar: PreferredSize(
           preferredSize: Size.fromHeight(80.0),
           child: AppBar(
+            iconTheme: IconThemeData(color: Colors.black87),
             backgroundColor: Colors.white,
             bottom: TabBar(
               labelColor: Colors.grey[800],
@@ -23,26 +26,20 @@ class ActivityAppBarState extends State<ActivityAppBar> {
               isScrollable: true,
               tabs: [
                 Tab(child: Text('Ongoing', style: TextStyle(fontSize: 16))),
-                Tab(child: Text('History', style: TextStyle(fontSize: 16))),
+                Tab(child: Text('Completed', style: TextStyle(fontSize: 16))),
               ],
             )
           ),
         ),
         body: TabBarView(
           children: [
-            buildPage('Ongoing'),
-            buildPage('History')
+            OngoingOrder(),
+            CompletedOrder()
           ]
             
           )
         )
       
-    );
-  
-  Widget buildPage(String text) => Center (
-    child: Text(
-      text,
-      style: TextStyle(fontSize:20, color: Colors.black)
-    )
+    
   );
 }
