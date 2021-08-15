@@ -5,9 +5,8 @@ class OngoingOrder extends StatefulWidget{
   @override
   OngoingOrderState createState() => OngoingOrderState();
 }
-
+   
 class OngoingOrderState extends State<OngoingOrder> {
- int selectedIndex = 0;
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +23,7 @@ class OngoingOrderState extends State<OngoingOrder> {
               Card(
                 color: Colors.white,
                 child: Align(
-                  alignment: Alignment.topLeft,
+                  alignment: Alignment.topLeft, 
                   child: Container(
                     margin: const EdgeInsets.fromLTRB(15, 10, 15, 10),
                       child: Column(

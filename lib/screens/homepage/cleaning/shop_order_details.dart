@@ -118,7 +118,7 @@ class ShopDetailsPageState extends State<ShopDetailsPage> {
                                 ),
                                 onChanged: (value) {
                                   setState(() {
-                                    item = String as String; value;
+                                    item = String as String;
                                   });
                                 },
                                 elevation: 10,
@@ -341,7 +341,7 @@ class ShopDetailsPageState extends State<ShopDetailsPage> {
                                 ),
                                 onChanged: (value) {
                                   setState(() {
-                                    pay = String as String; value;
+                                    pay = String as String;
                                   });
                                 },
                                 elevation: 10,

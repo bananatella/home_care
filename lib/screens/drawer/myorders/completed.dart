@@ -7,7 +7,6 @@ class CompletedOrder extends StatefulWidget{
 }
 
 class CompletedOrderState extends State<CompletedOrder> {
- int selectedIndex = 0;
 
   @override
   Widget build(BuildContext context) {

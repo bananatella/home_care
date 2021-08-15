@@ -6,7 +6,6 @@ class Settings extends StatefulWidget {
 }
 
 class _Settings extends State<Settings> {
-  final _formKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
     return Container(
